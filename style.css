@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Melted;
+    src: url('fonts/melted-monster-font.ttf') format('truetype'); /* Make sure the font format matches your file */
+}
+
+.melted-font {
+    font-family: Melted;
+    font-size: 3rem;
+    color: white;
+}
+
 .parallax {
     background-image: url('images/home2withoutmark.png'); /* Add your image here */
     height: 85vh;
@@ -16,6 +27,7 @@
 .parallax h1 {
     font-size: 3rem;
     margin: 0;
+
 }
 
 .parallax p {
@@ -49,7 +61,6 @@
     transform: scale(1.05); /* Slightly enlarge the image */
     opacity: 0.9; /* Change opacity on hover */
   }
-
 
 
 
