@@ -1,6 +1,6 @@
 .parallax {
-    background-image: url('images/home3.png'); /* Add your image here */
-    height: 65vh;
+    background-image: url('images/home2withoutmark.png'); /* Add your image here */
+    height: 85vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,3 +30,26 @@
 .nav-link:hover {
     color: orange;
 }
+
+
+/* Image Spacing */
+.image-box {
+    margin-bottom: 30px; /* Space between images */
+  }
+  
+  .textfont {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #imgfix {
+    transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
+  }
+  
+  #imgfix:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    opacity: 0.9; /* Change opacity on hover */
+  }
+
+
+
+
