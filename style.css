@@ -3,12 +3,25 @@
     src: url('fonts/melted-monster-font.ttf') format('truetype'); /* Make sure the font format matches your file */
 }
 
+
+body {
+  background-color: black;
+  color: white;
+}
+
 .melted-font {
     font-family: Melted;
     font-size: 3rem;
     color: white;
 }
+.nav-link {
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
 
+.nav-link:hover {
+    color: orange; /* Simple color change on hover */
+}
 .parallax {
     background-image: url('images/home2withoutmark.png'); /* Add your image here */
     height: 85vh;
@@ -36,31 +49,44 @@
 }
 
   
-  .nav-link {
-    color: white;
+.nav-link {
+  color: white;
+  transition: color 0.3s ease; /* Smooth transition for hover */
 }
+
 .nav-link:hover {
-    color: orange;
+  color: orange; /* Simple color change on hover */
 }
 
 
-/* Image Spacing */
-.image-box {
-    margin-bottom: 30px; /* Space between images */
-  }
-  
-  .textfont {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-  }
-
-  #imgfix {
-    transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
-  }
-  
-  #imgfix:hover {
-    transform: scale(1.05); /* Slightly enlarge the image */
-    opacity: 0.9; /* Change opacity on hover */
-  }
 
 
 
+.learn-more-btn {
+  padding: 5px 10px; /* Small button size */
+  font-size: 0.9rem; /* Smaller font */
+  color: white;
+  border: 2px solid orange;
+  background-color: transparent;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+  align-self: center; /* Vertically align with the image */
+  display: inline-block;
+  margin-top: 15px; /* Add margin to separate from the image */
+}
+
+.learn-more-btn:hover {
+  background-color: orange; /* Orange background on hover */
+  color: black;
+}
+
+#imgfix {
+  transition: transform 0.3s, opacity 0.3s;
+  display: inline-block;
+}
+
+#imgfix:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
