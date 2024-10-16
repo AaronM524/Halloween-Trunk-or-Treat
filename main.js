@@ -11,3 +11,13 @@ $(document).ready(function() {
         }
     });
 });
+
+
+$(document).ready(function () {
+    $('.card').on('mouseenter', function () {
+        $(this).find('.description').stop(true, true).fadeIn(300);
+    }).on('mouseleave', function () {
+        $(this).find('.description').stop(true, true).fadeOut(300);
+    });
+});
+
