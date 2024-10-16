@@ -137,3 +137,17 @@ body {
       flex-direction: row; /* Ensure items are in a row */
   }
 }
+
+
+.event-schedule-title {
+  font-family: 'Creepster', cursive; /* Apply Creepster font */
+}
+
+.btn-orange {
+  background-color: orange; /* Set button background to orange */
+  border: none; /* Remove button border */
+}
+
+.btn-orange:hover {
+  background-color: darkorange; /* Darken the button on hover */
+}
