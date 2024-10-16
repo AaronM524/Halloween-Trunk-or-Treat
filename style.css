@@ -12,7 +12,7 @@ body {
 .melted-font {
     font-family: Melted;
     font-size: 3rem;
-    color: white;
+    color: orange;
 }
 .nav-link {
     color: white;
@@ -89,4 +89,24 @@ body {
 #imgfix:hover {
   transform: scale(1.05);
   opacity: 0.9;
+}
+
+
+.event {
+  margin-top: 20px; /* Adds space between the image and event details */
+}
+
+.toggle-btn {
+  margin-top: 15px; 
+  padding: 10px 20px; 
+  background-color: orange; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.toggle-btn:hover {
+  background-color: orange; 
+  transform: scale(1.05); 
 }
