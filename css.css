@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition for hover */
+    font-family: 'Creepster', cursive; 
+  }
+  
+  .nav-link:hover {
+    color: orange; /* Simple color change on hover */
+  }
+  
+  .parallax {
+    background-image: url('images/home2withoutmark.png'); /* Add your image here */
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .parallax h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Creepster', cursive; 
+    color: orange;
+  }
+  
+  .event {
+    margin-top: 20px; /* Adds space between the image and event details */
+  }
+  
+  .toggle-btn {
+    margin-top: 0px; 
+    padding: 10px 20px; 
+    background-color: orange; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  .toggle-btn:hover {
+    background-color: orange; 
+    transform: scale(1.05); 
+  }
+  
+  .description {
+    color: white; /* Changed to white text */
+    display: none; /* Initially hidden */
+  }
+  
+  .description h3 {
+    color: orange; /* Orange headers */
+    margin: 0; /* Remove margin */
+  }
+  
+  .card {
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+  .custom-card {
+    border: 2px solid orange; 
+  }
+  
+  @media (max-width: 768px) { /* Adjust for mobile screens */
+    .navbar-collapse {
+        text-align: center; /* Center the text in the navbar */
+    }
+
+    .navbar-nav {
+        justify-content: center; /* Center the navigation items */
+        flex-direction: row; /* Ensure items are in a row */
+    }
+}
+
+.hover-effect {
+    transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.hover-effect:hover {
+    transform: scale(1.02); /* Scale the image to 110% on hover */
+}
